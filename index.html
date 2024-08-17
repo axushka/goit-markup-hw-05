@@ -148,11 +148,9 @@
                   <li class="icons-list-items">
                     <a href="" target="_blank" class="icons-link">
                       <svg class="team-box-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram">
-                        </use>
+                        <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
-                        </a>
+                    </a>
                   </li>
                   <li class="icons-list-items">
                     <a href="" target="_blank" class="icons-link"
@@ -430,6 +428,7 @@
       </section>
     </main>
 
+    <!-- footer -->
     <footer class="footer-section">
       <div class="container">
         <div class="footer-logo">
@@ -474,5 +473,44 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button type="button" class="modal-close-btm">
+          <svg class="modal-icon-close-btn" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+
+        <p class="modal-item">Leave your contacts and we will call you back</p>
+
+        <form>
+          <div class="form-wrap-cont">
+            <label for="user-name" class="modal-form-label">Name</label>
+            <div class="modal-cont-input">
+              <input class="modal-input" type="text" name="user-name" id="user-name" required>
+              <svg class="modal-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-user-name"></use>
+              </svg>
+            </div>
+
+            <!-- <label for="user-tel" class="modal-form-label">Phone</label>
+            <div class="modal-cont-input">
+              <input class="modal-input" type="tel" name="user-tel" id="user-tel" required>
+              <svg class="modal-icon-user-tel" width="12" height="12">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div> -->
+
+            <!-- <label for="user-email" class="modal-form-label">Email</label>
+            <div class="modal-cont-input">
+              <input class="modal-input" type="email" name="user-email" id="user-email" required>
+              <svg class="modal-iconuser-email" width="12" height="12">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div> -->
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
