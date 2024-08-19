@@ -471,11 +471,12 @@
             </li>
           </ul>
         </div>
-        
+
         <div class="footer-form">
-          <p>Subscribe</p>
           <form>
-            <label for="footer-email" class="footer-form-label">E-mail</label>
+            <label for="footer-email" class="footer-form-label"
+              >Subscribe</label
+            >
             <div class="footer-cont-input">
               <input
                 class="footer-input"
@@ -483,13 +484,20 @@
                 name="footer-email"
                 id="footer-email"
                 required
+                placeholder="E-mail"
               />
-              </div>
+            </div>
+            <div class="footer-send">
+              <button type="submit" class="footer-send-btn">
+                Subscribe
+                <svg class="footer-btn-send" width="24" height="20">
+                  <use href="./images/icons.svg#icon-frame"></use>
+                </svg>
+              </button>
+            </div>
           </form>
-          
-
+         
         </div>
-        
       </div>
     </footer>
     <div class="backdrop is-open">
@@ -560,7 +568,11 @@
               </div>
             </div>
             <div class="modal-checkbox">
-              <input type="checkbox" id="user-checkbox" class="checkbox visually-hidden" />
+              <input
+                type="checkbox"
+                id="user-checkbox"
+                class="checkbox visually-hidden"
+              />
               <label for="user-checkbox" class="custom-labele-user-checkbox">
                 <span class="custom-checkbox">
                   <svg class="" width="10" height="8">
@@ -572,14 +584,9 @@
               >
             </div>
             <div class="modal-send">
-              <button type="submit" class="modal-send-btn">Send
-              </button>
-
+              <button type="submit" class="modal-send-btn">Send</button>
             </div>
-    
-
-
-          </div>  
+          </div>
         </form>
       </div>
     </div>
