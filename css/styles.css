@@ -598,18 +598,18 @@ img {
 .modal-close-btm .modal-icon-close-btn {
   fill: #2e2f42;
 }
- .modal-close-btm:hover {
+.modal-close-btm:hover {
   background-color: #404bbf;
   border: none;
 }
- .modal-close-btm:focus {
+.modal-close-btm:focus {
   background-color: #404bbf;
   border: none;
 }
- .modal-icon-close-btn:hover {
+.modal-icon-close-btn:hover {
   fill: #ffffff;
 }
- .modal-icon-close-btn:focus {
+.modal-icon-close-btn:focus {
   fill: #ffffff;
 }
 .modal-item {
@@ -667,7 +667,8 @@ img {
   fill: #4d5ae5;
 }
 .modal-icon:focus {
-  fill: #4d5ae5;}
+  fill: #4d5ae5;
+}
 
 .comment-text {
   font-family: "Roboto", sans-serif;
@@ -715,6 +716,9 @@ img {
   justify-content: center;
   align-items: center;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox:checked + .custom-labele-user-checkbox > .custom-checkbox {
   border-color: transparent;
@@ -725,7 +729,7 @@ img {
   cursor: pointer;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -739,7 +743,11 @@ img {
   margin-right: 8px;
   margin-bottom: 24px;
 }
-
+.checkbox:checked + .custom-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
 .modal-send-btn {
   position: absolute;
   left: 119px;
