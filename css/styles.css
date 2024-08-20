@@ -598,12 +598,14 @@ img {
 .modal-icon-close-btn {
   fill: #2e2f42;
 }
-.modal-close-btm:hover .modal-close-btm:focus {
+.modal-close-btm:hover,
+.modal-close-btm:focus {
   background-color: #404bbf;
   border: none;
 }
 
-.modal-icon-close-btn:hover .modal-icon-close-btn:focus {
+.modal-icon-close-btn:hover,
+.modal-icon-close-btn:focus {
   fill: #ffffff;
 }
 .modal-item {
