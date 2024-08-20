@@ -551,11 +551,11 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
 }
-/* .backdrop .is-open {
+.backdrop .is-open {
   visibility: visible;
   opacity: 1;
   pointer-events: all;
-} */
+}
 .modal {
   background-color: #e7e9fc;
   position: absolute;
