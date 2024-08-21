@@ -547,11 +547,11 @@ img {
   height: 100%;
   z-index: 999;
   background: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
-.backdrop .is-open {
+.backdrop.is-open {
   visibility: visible;
   opacity: 1;
   pointer-events: all;
@@ -599,7 +599,7 @@ img {
 .modal-icon-close-btn {
   fill: #2e2f42;
 }
-.modal.modal-close-btm:hover {
+.modal .modal-close-btm:hover {
   background-color: #404bbf;
   border: none;
 }
@@ -754,7 +754,7 @@ img {
 }
 
 .modal-send-btn {
-  position: absolute;
+  display: block;
   left: 119px;
   cursor: pointer;
   font-weight: 500;
@@ -768,6 +768,7 @@ img {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
+  margin: auto;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
